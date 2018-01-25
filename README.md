@@ -5,7 +5,7 @@ Created a hangman game ran through Node.js using JavaScript constructors.
 ## Getting Started
 * Clone repo.
 * Run command in Terminal or Gitbash 'npm install'
-* Run command 'node main.js' to get started playing game (Hint: Superheroes)
+* Run command 'node main.js' to get started playing game 
 
 ## Technology used
 * Node.js
