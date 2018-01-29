@@ -1,6 +1,6 @@
-var letters = require('./letters.js');
+var letter = require('./letters.js');
 
-myLetter = new letters.letters('a');
+myLetter = new letter.letter('a');
 console.log(myLetter);
 console.log(myLetter.value);
 

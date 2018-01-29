@@ -6,7 +6,7 @@ function word(value){
 	this.letters = [];
 	this.guessesMade = "";
 	for(var i = 0; i < this.value.length; i++) {
-		this.letters.push(new letterCons.letters(this.value[i]));
+		this.letters.push(new letterCons.letter(this.value[i]));
 	}
 };
 
@@ -17,8 +17,8 @@ word.prototype.isComplete = function(){
 	return true;
 }
 
-word.prototype.findLetter = function(letters){
-	var lowerLetter = letters.toLowerCase();
+word.prototype.findLetter = function(letter){
+	var lowerLetter = letter.toLowerCase();
 	if (this.guessesMade.indexOf(lowerLetter) != -1) {
 		return "Duplicate";
 	} 
