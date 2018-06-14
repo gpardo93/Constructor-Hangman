@@ -13,3 +13,6 @@ Created a hangman game ran through Node.js using JavaScript constructors.
 
 ### Prerequisites
 - Node.js - Download the latest version of Node https://nodejs.org/en/
+
+
+![Hangman gif](/hangman.gif)
