@@ -1,6 +1,6 @@
 # Constructor-Hangman
 
-Created a hangman game ran through Node.js using JavaScript constructors.
+Created a hangman game ran through Node.js using JavaScript constructors. This particular game has you guessing the correct designer label.
 
 ## Getting Started
     * Clone repo.
